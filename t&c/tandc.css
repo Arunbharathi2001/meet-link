@@ -1,0 +1,31 @@
+html{
+    background-color: rgb(243, 243, 86);
+}
+@font-face{
+     font-family: myFirstFont;
+     src: url(pf.ttf);
+     
+}
+div{
+    font-family: myFirstFont;
+    color: red;
+    font-size: 35px;
+    -webkit-text-stroke: 1px black;
+}
+button.print{
+    margin-left: 43%;
+}
+button.close{
+    margin-left: 1%;
+}
+button{
+    border: 3px solid red;
+    background-color: rgb(243, 243, 86);
+    color: red;
+}
+button:hover{
+    background-color: rgb(243, 201, 86);
+}
+div{
+    cursor: default;
+}

@@ -1,0 +1,73 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>All Links</title>
+        <link rel="icon" type="img/png" href="log.png">
+    </head>
+    <body>
+        <style>
+            html{
+               background-color: rgb(243, 243, 86);
+            }
+            img{
+                padding-left: 5%;
+                padding-right: 2%;
+                height:50%;
+                padding-top: 2%;
+            }
+            img:hover{
+                cursor: pointer;
+            }
+            #container {
+                 margin: auto;
+                 padding-top: 40px;
+                 padding-bottom: 40px;
+                 text-align: center;
+            }
+            .box {
+                display: block;
+                margin: 0px;
+                white-space: nowrap;
+                }
+            .box div {
+                display: inline-block;
+                margin-right: 5%;
+                margin-left: 2%;
+                padding: 0px;
+                vertical-align: middle;
+                }
+
+            button{
+                margin-top: 3%;
+                height: 23px;
+                color: red;
+                background-color: rgb(243, 243, 86);
+                border: 2px solid red;
+            }
+            button:hover{
+                background-color: rgb(204, 204, 70);
+                cursor: pointer;
+            }
+
+        </style>
+        <div id="container">
+            <div class="box">
+            <div><img onclick="ogen()" class="gen" src="../imgs/gen.jpg" alt="" title="General link"><br></div>
+            <div><img onclick="odma()" class="dma" src="../imgs/dma.jpg" alt=""title="DMA link"><br></div>
+            <div><img onclick="oism()" class="ism" src="../imgs/ism.jpg" alt=""title="ISM link"><br></div>
+            </div>
+            <button onclick="window.close()">Close</button>
+        </div>
+        <script>
+            function ogen(){
+                 window.open("https://meet.google.com/lookup/bsp7axlqk3?authuser=2&hs=179","_blank")
+            }
+            function odma(){
+                 window.open("https://meet.google.com/lookup/hkac4lmqfz?authuser=2&hs=179","_blank")
+            }
+            function oism(){
+                 window.open("https://meet.google.com/lookup/h7vvuxlrlt?authuser=2&hs=179","_blank")
+            }
+        </script>
+    </body>
+</html>

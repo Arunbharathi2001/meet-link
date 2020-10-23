@@ -1,0 +1,51 @@
+body{
+    background-image: url("imgs/bg.jpg");
+    background-size: cover;
+}
+
+img.phineas{
+    height:300px;
+    margin-left: 3.5%;
+    margin-top:23%;
+}
+img.ferb{
+    margin-right: 30px;
+    height:360px;
+    margin-bottom: 0px;
+    margin-left:5px;
+}
+img.start{
+    height:65px;
+    margin-bottom: 7%;
+    margin-left: 2.3%;
+    margin-right: 3%;
+}
+img.start:hover{
+    cursor: pointer;
+    box-shadow: tomato ;
+} 
+img.logi{
+    margin-bottom:28%;
+}
+
+img.perry{
+    height:120px;
+    
+    margin-left:30px;
+    
+}
+img.perry:hover{
+    cursor: pointer;
+}
+img.logi:hover{
+    cursor: pointer;
+}
+img.xd:hover{
+    cursor: pointer;
+}
+img.xd{
+    height:35px;
+    float: right;
+    margin-right: 20px ;
+    margin-top: 20px;
+}
