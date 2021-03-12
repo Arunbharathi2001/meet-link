@@ -49,3 +49,78 @@ img.xd{
     margin-right: 20px ;
     margin-top: 20px;
 }
+@media only screen and (max-width: 600px) {
+    body{
+        background-image: url("imgs/bg.jpg");
+        background-size: cover;
+    }
+    
+    img.phineas{
+        display: none;
+    }
+    img.ferb{
+        display: none;
+    }
+    img.start{
+        height:65px;
+        margin-bottom: 7%;
+        margin-left: 25%;
+    }
+    img.logi{
+        margin-bottom:28%;
+        margin-left: 12%;
+    }
+    
+    img.perry{
+        height:125px;
+        margin-left:2%;
+        margin-top: 35%;
+        
+    }
+
+
+    img.xd{
+        height:55px;
+        float: right;
+        margin-right: 10% ;
+        margin-top: 45%
+    }
+   
+}
+@media only screen and (max-width: 900px) {
+    body{
+        background-image: url("imgs/bg.jpg");
+        background-size:contain;
+        background-repeat:round;
+    }
+    img.phineas{
+        height: 50%;
+    }
+    img.ferb{
+        height: 60%;
+        margin-left: 2%;
+    }
+
+    img.start{
+        height:60px;
+        margin-left: 2%;
+    }
+    img.logi{
+        float: left;
+        height: 25%;
+    }
+    
+    img.perry{
+        height:18%;
+        margin-left:79%;
+        margin-top: -8%;
+        
+    }
+    img.xd{
+        height:30px;
+        float: right;
+        margin-top: -48%;
+    }
+
+
+}
